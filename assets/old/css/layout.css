@@ -1,0 +1,790 @@
+body{
+    width:100%;
+    height:100%;
+    overflow-y:scroll;
+    background: none repeat scroll 0 0 rgba(0,0,0,0.1);
+}
+header.top_header{
+    left: 0;
+    margin: 0 auto;
+    max-height: 52px;  
+    padding: 10px 10px 13px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+header.top_header .part_one,header.top_header .part_two,header.top_header .part_three{
+	float:left;	
+    margin: 0 auto;
+	text-align:center;
+	/*width:auto;*/
+}
+header.top_header .part_three{
+    /*float:left;
+    right:50px;*/
+}
+div.part_three div.login, div.part_three div.register{
+    float:left;
+    padding:10px;
+}
+/*div.part_three div.register{
+    margin-right:150px;
+}*/
+
+section.main{
+    width:100%;
+    position:relative;
+    margin: 0 auto;
+    text-align: center;
+}
+section.main div.main{
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+    top:100px;
+    background: none repeat scroll 0 0 rgba(255,255,255,1);
+    padding:20px;
+    max-width: 100%;
+}
+section.main div.top{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+}
+div.top div.left_top{
+    width:50%;
+    float: left;
+}
+div.top div.right_top{
+    width:50%;
+    float:right;
+    text-align: right;
+}
+
+section.main div.dashboard{
+    width: 95%;
+    padding:10px 20px;
+    top:0px;
+}
+div.dashboard div.left{
+    border-right: 1px solid #eee;
+    width: 17%;
+    float: left;
+    text-align: left;
+}
+div.dashboard div.right{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+div.right div.box{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    width:44%;
+    min-height:330px;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+}
+div.right div.box_big{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width:95%;
+    min-height:330px;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+}
+section.main section.slider{
+    width:100%;
+    height:500px;
+    overflow:hidden;
+}
+
+section.slider img{
+    max-height: 500px;
+    position: relative;
+    top: 70px;
+    width: 100%;
+	opacity: 0.9;
+}
+
+section.slider div.descrip_image{
+    position:absolute;
+    color:#F00;
+    top:120px;
+    right:70px;
+    z-index:9999;
+    width:300px;
+    height:300px;
+    background:rgba(00,00,00,.67) ;
+    padding: 5px;/* added  later */
+}
+
+div.descrip_image div.down{
+    width:280px;
+    height:280px;
+    margin:10px;
+    /*background:rgba(255,255,255,.8);*/
+    background:none repeat scroll 0 0 rgba(255, 255, 255, 1);
+    z-index:99999;
+}
+
+section.icon-list{
+    padding:10px;
+    background:none repeat scroll 0 0 rgba(0, 120, 0, 0.6);
+    /*border-top:5px solid #007500;*/
+    box-shadow:0px 0px 5px  rgba(00,00,00,.8);
+    border-top:5px solid rgba(100, 151, 85, 1);
+}
+
+section.dcr-width{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+section.pop-list{
+    background-color:rgba(00,120,00,0.06);
+}
+section.dcr-width section{
+    /*	width:100%;
+        margin:0 auto;
+        text-align:left;*/
+    display:inline-block;
+    /*	overflow:hidden;*/
+}
+
+section div.det-wrapper{
+    /*float:left;*/
+    max-width:360px;
+    display:inline-block;
+    margin:10px 0px 10px 30px;
+    /*width:30%;*/
+    overflow:hidden;
+}
+
+section div.det-wrapper img{
+    height:200px;
+    overflow:hidden;
+}
+
+section.dcr-width section.btns{
+    padding:40px;
+}
+
+section.main section.social-wrapper{
+    display:inline-block;
+    /*background:#D2FFD2;*/
+}
+section.social-wrapper{
+    /*background:
+radial-gradient(#FFF 15%, transparent 16%) 0 0,
+radial-gradient(#FFF  15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 3px 3px;*/
+    background-color:rgba(0, 120, 0, 0.4) ;
+    background-size:5px 5px;
+    box-shadow:0 2px 9px 2px rgba(0, 0, 0, 0.6);
+    padding: 65px 0;
+    position:relative;
+}
+section.main section.feat-list{
+    background:none repeat scroll 0 0 rgba(0, 120, 0, 0.2);
+}
+section.main section.app-feat{
+    height:500px;
+    width:100%;
+    margin:0 auto;
+    text-align:center;/*
+    background:none repeat scroll 0 0 rgba(00,75,00,0.7);*/
+    /*	background:
+            radial-gradient(#FFF 15%, transparent 16%) 0 0,
+            radial-gradient(#FFF  15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 3px 3px;
+            background-color:rgba(0, 120, 0, 0.6) ;*/
+    background-attachment: scroll, scroll, scroll, scroll;
+    background-clip: border-box, border-box, border-box, border-box;
+    background-color: rgba(0, 120, 0, 0.4);
+    /*background-image: radial-gradient(#fff 15%, transparent 16%), radial-gradient(#fff 15%, transparent 16%);*/
+    background-origin: padding-box, padding-box, padding-box, padding-box;
+    background-position: 0 0px, 8px 8px, 0 1px, 3px 3px;
+    background-repeat: repeat, repeat, repeat, repeat;
+    background-size:5px 5px;
+    box-shadow:0 2px 9px 2px rgba(0, 0, 0, 0.5);
+    display:inline-block;
+    position:relative;
+}
+section.app-feat div,section.app-feat img{
+    display:inline-block;
+    overflow:hidden;
+}
+section.app-feat div{
+    margin-left:150px;
+    padding:50px 0px;
+}
+section.app-feat div{
+    vertical-align:top;
+}
+section.main p.layer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background:rgba(00,00,00,0.07);
+}
+body div.layer-last{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background:rgba(00,00,00,0.5);
+    left:0;
+    top:0;
+    z-index: 99999999;
+    overflow-y: scroll;
+}
+div.layer-last *{
+    color:#FFF;
+    font-family:'patua',proxima-bold;
+}
+.layer-last .layer-cen{
+    position:relative;
+    top:25%;
+    left:25%;
+    max-width: 400px;
+    min-height: 150px;
+    width:50%;
+    background:rgba(255,255,255,1);	
+    border-radius: 2px;
+}
+div.layer-cen *{
+    color:#000;
+}
+section.main section.ktm-feat{
+    width:100%;
+    margin:0 auto;
+    height:500px;
+    text-align:center;
+    background:none repeat scroll 0 0 rgba(0,0,0,.7);
+    position:relative;
+    display:inline-block;
+}
+
+section.main section.rec-list{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+    background:none repeat scroll 0 0 rgba(00,120,0,.2);
+    position:relative;
+    display:inline-block;
+}
+
+section.ktm-feat h1,section.ktm-feat  h2,section.ktm-feat  h3,section.ktm-feat  p{
+    text-align:center;
+    color:rgba(255,255,255,0.9);
+}
+section.ktm-feat h1,section.ktm-feat  h2,section.ktm-feat h3{
+    font-size:2.5em;
+    padding-top:45px;
+}
+
+/*footer{
+    background: none repeat scroll 0 0 rgba(0, 120, 0, 0.7);
+    height: 400px;
+}*/
+footer{
+    background: none repeat scroll 0 0 rgba(255, 0, 0, 0.6);
+    height: 400px;
+}
+section.dcr-width section.info-bar{
+    background: none repeat scroll 0 0 rgba(0, 120, 0, 0.6);
+    color: #eee;
+    padding: 20px;
+    margin: 20px 0;
+}
+section.main section.results{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+    background:none repeat scroll 0 0 rgba(00,120,0,.02);
+    position:relative;
+    display:inline-block;
+}
+.det-wrapper section.top-wrapper{
+    background: none repeat scroll 0 0 rgba(0, 120, 0, 0.6);
+    box-shadow: 0 1px 5px #333;
+    height: 60px;
+    padding: 5px;
+    width: 100%;
+}
+.top-wrapper .logo{
+    float:left;
+}
+.top-wrapper .logo img{
+    height:60px;
+    width:60px;
+    overflow:hidden;
+}
+.top-wrapper .options{
+    float:right;
+    vertical-align:baseline;
+    position:relative;
+    right:10px;
+    top:0;
+}
+.top-wrapper .options img{
+    height:20px;
+    display:table-cell;
+}
+
+/*
+* Company Details page
+*/
+section.main section.ktm197{
+    width:100%;
+    margin:50px 0 auto;
+    display:inline-block;
+    /*background-color:rgba(239,239,242,0.4);*/
+}
+section.ktm197 section.ktmcompany{
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 30px;
+    padding: 15px 5px;
+    width: 64%;
+    min-height: 500px;
+}section.ktm197 section.ktmapp{
+    width:18%;
+    min-width:250px;
+    margin-top:30px;
+    float:left;
+}
+section.ktm197 section.ktmchat{
+    width:15%;
+    min-width:150px;
+    margin-top:30px;
+    height:100%;
+    float:left;
+    padding:0 3px;
+    position:relative;
+}
+section.ktmcompany section.ktmtabs{
+    float:left;
+    text-align:center;
+}
+section.tabs{
+    margin:20px 0 0  0;
+}
+section.company{
+    width:100%;
+    padding-top:5%;
+    float:left;
+    display:block;
+}
+section.company section.leftside{
+    width:35%;
+    float:left;
+    display:block;
+    overflow:hidden;
+}
+section.leftside section.companyperson{
+    background: none repeat scroll 0 0 rgba(255, 0, 0, 0.5);
+    border: 1px solid #eee;
+    height: 300px;
+    margin: 0 0 10px;
+    text-align: center;
+    width: 100%;
+}
+section.companyperson section.image img{
+    display: table-cell;
+    margin: 10px 0;
+    max-width: 200px;
+    vertical-align: middle;
+}
+section.companyperson section.name{
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+section.company section.rightside{
+    width:64%;
+    float:right;
+    display:block;
+    overflow:hidden;
+}
+section.leftside section.companyinfo{
+    width:100%;
+}
+section.leftside table{
+    margin:10px 0px 0px 0px;
+}
+section.leftside section.companytags,section.leftside section.tagstitle{
+    width:100%;
+}
+section.leftside section.companytags{
+    padding:20px 0px 20px 0px;
+}
+section.leftside section.companyopen{
+    width:100%;
+    padding:20px 0px 20px 0px;
+}
+section.rightside section.companyslider,section.rightside section.companybasic{
+    width:100%;
+}
+section.rightside section.companybasic{
+    padding:20px 0px 20px 0px;
+}
+section.companybasic section.logo,section.companybasic section.details{
+    float:left;
+}
+
+section.logo img{
+    max-width:150px;
+    max-height:150px;
+}
+section.companybasic section.details{
+    padding-left:20px;
+    width:65%;
+}
+section.companybasic .catinfo{
+    width:100%;
+    padding:20px 0;
+}
+.catinfo div.left{
+    width:30%;
+    float:left;
+}
+.catinfo div.right{
+    width:70%;
+    float:left;
+}
+section.rightside section.ktmmenu{
+    width:100%;
+    margin:10px 0 0 0;
+}
+section.rightside section.ktmrating{
+    width:100%;
+    margin:50px 0 0 0;
+    padding:30px 0 0 0;
+}
+section.ktmrating div.rate-wrapper,section.ktmrating div.info-wrapper{
+    float:left;
+}
+section.ktmrating div.info-wrapper{
+    display: table;
+    padding: 8px 0 0 20px;
+    height:37px;
+}
+section.rightside section.ktmsurvey{
+    width:100%;
+    margin:20px 0 0 0;
+    padding:30px 0 0 0;
+}
+section.rightside section.ktmabout{
+    width:100%;
+    margin:20px 0 0 0;
+    padding:30px 0 0 0;
+}
+section.rightside section.ktmreviews{
+    width:100%;
+    margin:20px 0 0 0;
+    padding:30px 0 0 0;
+}
+section.ktmreviews section.reviews{
+    width:100%;
+    margin-left:1%;
+}
+section.reviews section.review{
+    width:100%;
+    padding:10px 0 10px 0;
+}
+section.review section.reviewimage{
+    max-width:50px;
+}
+section.userreview section.reviewimage{
+    max-width:100px;
+}
+section.review section.reviewcontent{
+    min-width:80%;
+    width:80%;;
+    max-width:90%;
+    padding:0px 0px 0px 10px;
+}
+section.userreview section.reviewcontent{
+    min-width:80%;
+    width:80%;;
+    max-width:90%;
+    padding:0px 0px 0px 1%;
+    vertical-align: top;
+}
+section.review section.reviewimage,section.review section.reviewcontent{
+    float:left;
+}
+section.content section.reviewoptions{
+    width:100%;
+}
+section.ktmapp section.ktmads{
+    width:100%;
+    padding:0 5px;
+    overflow:hidden;
+}
+section.ktmads section.ad{
+    width:100%;
+    padding:0 0 10px 0;
+}
+section.ktmapp section.featured{
+    width:100%;
+    padding:0 0 20px 0;
+}
+/*section.featured section.feattitle{
+    margin-bottom:20px;
+}*/
+/*section.featcomp
+    	background:repeat scroll rgba(00,00,00,.02);
+    padding:20px 0px 20px 0;
+    margin:5px 0 10px 0;
+    border-bottom:1px solid #FFF;
+}*/
+section.featcomp {
+    background-color: rgba(255, 0, 0, 0.07);
+    border-bottom: 1px solid #fff;
+    margin: 5px 0 10px;
+    padding: 20px 0;
+}
+section.featcomp section.featlogo{
+    width:50px;
+    float:left;
+}
+section.featcomp section.featdet{	
+    float:left;
+}
+section.ktmchat section.chattop{
+    width:100%;
+    height:10%;;
+}
+/*
+    About tab layouts
+*/
+section.about,section.services,section.team{
+    width:100%;
+    display:inline;
+    text-align:left;
+    overflow:hidden;
+}
+section.services section.service,section.team section.member{
+    width:95%;
+    margin:0 auto;
+    margin-bottom:20px;
+    padding:20px 0 0 0;
+    display:table;
+}
+section.member section.image{
+    max-width:200px;
+    display:table-cell;
+    text-align:left;
+}
+section.member section.meminfo{
+    min-width: 200px;
+    display:table-cell;
+    text-align:left;
+}
+section.member section.meminfo{
+    padding:0 0 0 20px;
+    vertical-align:top;
+}
+section.gallery {
+    width:100%;
+    display: inline-block;
+    text-align: left;
+}
+section.gallery section.image{
+    width: 22%;
+    height:200px;
+    margin:0.65%;
+    text-align:left;
+    padding:20px 0 0 0;
+}
+section.userreviews{
+    padding:20px 0 0 0;
+}
+section.reviews section.userreview{
+    width:100%;
+}
+section.contact{
+    width:100%;
+}
+section.contact section.mapbox{
+    width:100%;
+    height:480px;
+    overflow:hidden;
+}
+section.contact section.contactdets{
+    display:inline;
+}
+section.contactdets section.contactform,section.contactdets section.contactinfo{
+    width:48%;
+    float:left;
+}
+section.ktm197{
+    /*background-color:rgba(255,255,0,0.04);*/
+}
+section.ktm197 img{
+    opacity: 0.9;
+    /*filter: alpha(opacity=90)8*/
+}
+section.location,
+section.about,
+section.images,
+section.team,
+section.preview,
+section.hours,
+section.services,
+section.social,
+section.type{
+	float: left;
+    padding-top: 5%;
+}
+section.main section.data-page{
+	width:80%;
+	margin:0 auto;
+	border:1px solid #DDD;
+	background:#FFF;
+	margin: 20px 0 10px 0;;
+	border-radius:3px;
+}
+section.data-page section.left-page,
+section.data-page section.left-right{
+	float:left;
+}
+section.left-page section{
+    width:100%;
+}
+section.data-page section.left-page{
+	width:75%;
+	border-right:1px solid #DDD;
+	padding:3px 15px;
+}
+
+section.data-page section.right-page{
+	width:20%;	
+	margin:0 auto;
+	text-align:center;
+	padding:3px 3px;
+}
+section.icon-list{
+	margin-bottom:5px;
+}
+section.main section.welcome,
+section.main section.online,
+section.main section.claim,
+section.main section.advertise,
+section.main section.app{
+	/*width:100%;*/
+	margin:0 auto;
+	text-align:center;
+	height:400px;
+	padding:0 10px;
+	margin: 0 auto 40px;
+    overflow: hidden;
+	/*margin:20px 0 0 0;*/
+}
+section.welcome section.text,
+section.welcome section.text-image,
+section.welcome section.text-limage,
+section.online section.text,
+section.online section.text-image,
+section.online section.text-limage,
+section.advertise section.text,
+section.advertise section.text-image,
+section.advertise section.text-limage,
+section.claim section.text,
+section.claim section.text-image,
+section.claim section.text-limage,
+section.app section.text,
+section.app section.text-image,
+section.app section.text-limage{
+	float:left;
+	overflow:hidden;
+	height:100%;
+}
+section.welcome section.text,
+section.online section.text,
+section.advertise section.text,
+section.claim section.text,
+section.app section.text{
+	width: 52%;
+	padding:10px;
+	background:none repeat scroll #fff;
+	overflow:hidden;
+	border-bottom: 1px solid rgba(50, 50, 50, 0.7);
+    box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.3);
+}
+section.welcome section.text-image,
+section.online section.text-image,
+section.advertise section.text-image,
+section.claim section.text-image,
+section.app section.text-image{
+	width:45%;
+	 padding: 0 0 0 10px;
+	overflow:hidden;
+	display:table;
+}
+section.welcome section.text-limage,
+section.online section.text-limage,
+section.advertise section.text-limage,
+section.claim section.text-limage,
+section.app section.text-limage{
+	width:45%;
+	padding: 0 10px 0 0;
+	overflow:hidden;
+	display:table;
+}
+section.mid-border{
+	border-right:2px solid rgba(0,120,0,0.7);
+	overflow:hidden;
+}
+section.superadmin{
+    width:80%;
+    display:table;
+}
+section.superadmin  ul{
+    display:table-cell;
+    margin:0 auto;    
+    text-align: center;
+    vertical-align: middle;
+}
+section.counter{
+    width: 100%;
+    height:100px;
+    background-color: rgba(255,0,0,0.6);
+}
+section.counter section.count{
+    width:33%;
+    text-align: center;
+    margin:0 auto;
+    float:left;
+}
+section.feedback{
+    text-align: center;
+    margin:0 auto;
+    background: none repeat scroll 0 0 #FFF;
+    width:60%;
+    min-height:500px;
+    padding: 0 20px 10px 20px;
+}
+section.about{
+    text-align: left;
+}
+ul.dashboard{
+    width:100%;
+}

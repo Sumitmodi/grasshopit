@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.page-header {
+padding-bottom: 9px;
+margin: 20px 0 20px 10px 0;
+border-bottom: 1px solid #ddd;
+font-size: 25px;
+}
+.navbar-default .navbar-brand, .nav>li>a { color: #ccc; }
+.nav>li>a { font-size: 12px;}
+.nav>li>a:hover { color: #fff}
+.navbar-default .navbar-brand:hover, .nav>li>a:hover>i { color: #ffd559}
+ .nav > li > a > i {
+color: rgb(255, 255, 255);
+margin-right: 12px;
+}
+.navbar-default {
+background-color: #33414e;
+border-color: #5E5E5E;
+}
+.nav>li>a:hover, .nav>li>a:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus { background-color: #616364;}
+
+.business-title {
+border-bottom: 1px solid #ddd; padding: 7px 0; margin-bottom: 15px;}
+.page-content {padding: 7px 0;}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td { border:none;}
+.table-responsive table .btn { width: 100px; border-radius: 0;}
+.table>tbody>tr>td:first-child { width:200px;}
+td{
+max-width:200px;
+}
+.table>tbody>tr>td:last-child { color: #428bca;}
+.page-content h2 { margin: 0; font-size: 18px; line-height: 20px;}
+.thumbnail, .video { border: none;
+
+height: 200px;
+overflow: hidden;
+margin: 20px auto;}
+.page-content .upload ul { margin: 0; padding: 0;}
+.page-content .upload ul li { display: inline-block; margin-right: 166px;}
+.upload {
+margin-bottom: 22px;
+
+padding-bottom: 20px;
+}
+.bottom-page-content h2 { font-size: 17px; line-height: 20px; }
+.bottom-page-content .category-list { margin:0; padding:0;}
+.bottom-page-content .category-list li { display: block;
+list-style: none;
+padding: 9px 0;
+border-bottom: 1px solid #ccc;}
+.bottom-page-content .category-list li span { display: inline-block;}
+.panel-body { background: #f5f5f5 url(img/bg.png) left top repeat;}
+.panel-body form a.btn-success { border-radius: 0; margin: 30px 0 0 0;}
+.category-list li .btn-success { border-radius: 0;}
+
+.page-content form a.simulator { padding:10px; font-size:14px; text-decoration: none; margin: 10px 0 5px 0;
+display: inline-block;}
+.page-content form label { display: block;}
+
+.page-content .videos p { background: rgba(207, 0, 0, 0.7); display: block; margin: 0; text-align: center; color: #fff; padding: 10px 0;}
+.linear .linear-list {
+width: 200px;
+height: 200px;
+background-color: #fff;
+padding: 40px 10px;
+margin: 20px auto; text-align: center; border: 1px solid #ddd; cursor: pointer;
+}
+.linear .linear-list h2 { text-transform: uppercase;}
+.linear .linear-list a { text-decoration: none; color: #000; text-align: center; margin: 10px 0;
+display: block;}
+.linear .linear-list a  + a { color: #fff; margin: 25px 0;}
+.linear .linear-list:hover { background-color: #33414e;}
+.linear .linear-list:hover h2, .linear .linear-list:hover a { color: #fff;}
+.page-content form .form-group p span { color: #39F}
+.page-content form .form-group h3 { font-size: 20px;} 
+.page-content form .form-group .form-control { border-radius: 0; max-width: 350px;}
+.page-content form button.change { border-radius: 0;}
+.page-content p.bottom-text { padding:20px 0;} 
+.page-content p.bottom-text span { color: rgba(255,0,0,.6)}
+.review h4 { border-bottom: 1px solid #ddd; padding:10px 0; margin: 10px 0;}
+.review .review-name h5 { font-size: 15px;
+font-weight: 700;}
+.review .review-comment { background-color: #fff;
+border: 1px solid #ddd;
+padding: 5px 10px;
+margin: 10px 0;} 
+.review .review-comment p { margin: 0;}
+.review .review-btn .btn { border-radius: 0; margin: 5px 5px 5px 0px;}
+.review-list {
+border-bottom: 1px solid #ddd;
+padding-bottom: 20px;
+}

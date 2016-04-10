@@ -1,0 +1,139 @@
+header{    
+	/*border: 1px solid #333333;*/
+    /*box-shadow: 0 3px 4px #333333;*/
+    box-shadow:0 1px 3px #333333;
+    color: #FFFFFF;
+    position: fixed;
+    z-index: 999999;
+	text-align:center;
+	border-bottom: 1px solid #333333;
+}
+div.header{
+    display: inline-block;
+}
+/*div.logo a:link span{
+	color:#FFF;
+	display: inline-block;
+    font-family: patua;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding: 10px 0;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 2px 0 5px rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+}*/
+div.logo a:link span {
+    display: inline-block;    
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 10px 0;
+    position: relative;
+    text-decoration: none;
+    /*text-shadow: 0 0 2px rgba(255, 255, 255, 0.7);*/
+    text-shadow:0 0 2px rgba(48, 96, 255, 0.7);
+    text-transform: uppercase;
+}
+
+header  a:link span,header  a:visited span{
+	/*color:#FFF;*/
+	line-height:30px;
+	padding:5px 10px 5px 10px;
+}
+/*header input{
+	margin:05px 0px 0px 10px;
+	box-shadow:0 3px 5px rgba(48,48,48,0.5);
+}*/
+header input {
+    border-radius: 1px;
+    box-shadow: -1px -1px 0 rgba(0, 0, 0, 1) inset;
+    margin: 5px 0 0 10px;
+}
+header input[type='submit']{
+position:absolute;
+left:-999px;
+}
+a.search img{   
+z-index:-100;
+	/*height: 35px;*/
+    vertical-align: middle;
+	/*transform:rotate(-15deg);
+	-ms-transform:rotate(-15deg); 
+	-webkit-transform:rotate(-15deg);*/
+	/*margin-left:10px;*/
+    width:40px;
+    padding-left:5px
+}
+/*a.search:hover img{
+	transform:rotate(-15deg);
+	-ms-transform:rotate(-15deg); 
+	-webkit-transform:rotate(-15deg);
+}*/
+div.register a span#register{
+	padding:7px 15px;
+	border:1px solid #FFF;
+	background-color:rgba(00,128,255,1);
+}
+div.login a span#login{
+	padding:7px 15px;
+	border:2px solid rgba(255,255,255,0.7);
+	border-radius:5px;
+}
+div.login a span#login:hover{
+	border:2px solid rgba(255,255,255,1);
+}
+.pattern{
+	/*background:
+		radial-gradient(#FFF 15%, transparent 16%) 0 0,
+		radial-gradient(#FFF  15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 3px 3px;*/
+	/*background-color:rgba(0, 160, 0,1) ;*/
+    background: none repeat scroll 0 0 / 5px 5px #313640;
+	background-size:5px 5px;
+}
+div#ktm-suggestions, div#suggestions-197{
+   font-family: 'roboto condensed',patua;
+   font-size: 0.85em;
+    color: rgba(0, 0, 0, 0.7);
+}
+div#ktm-suggestions ul li,div#suggestions-197 ul li{
+    padding:8px;
+}
+div#ktm-suggestions ul li a:link,
+div#ktm-suggestions ul li a:visited,
+div#suggestions-197 ul li a:link,
+div#suggestions-197 ul li a:visited{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'roboto condensed',patua;
+    font-size: 1em;
+}
+div#ktm-suggestions, div#suggestions-197{
+    box-shadow: 0 0 3px #000;
+}
+ul.category-suggestions li{
+   /*border-bottom:1px solid #ccc;*/
+}
+span.green{
+	color:rgba(0,120,0,0.7);
+}
+
+div.part_one div.logo{
+	text-align:right;
+	padding: 0 20px;
+}
+div.part_two{
+	padding:0 20px;
+}
+/*span.dot{
+	color:rgba(0,120,0,1);
+	font-size:1.1em;
+}*/
+span.dot{
+	color:rgba(0,0,0,0.7);
+	font-size:1.1em;
+}

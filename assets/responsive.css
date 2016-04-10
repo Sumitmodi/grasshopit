@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 1024px) {
+	.row { margin: 0;}
+	section.inner-page { height:auto;}
+}
+@media only screen and (max-width: 950px) {
+	#navbar .navbar-default { padding: 0 30px;}
+.categories, .featured-listing { padding: 0 30px;}
+section.inner-page { height:auto; }
+section.inner-page .title h2 { font-size:20px;}
+section.inner-page .title .breadcrumb {padding:0;}
+}
+@media only screen and (max-width: 768px) {
+	
+.form-wrap, .login-wrap {
+    margin: 23px 17px 19px;
+}
+.form-wrap .form-control { width: 138px; font-size: 11px;}
+.login-wrap > ul > li > a {  padding: 0 0 0 5px; font-size: 12px;}
+.login-wrap > ul > li:first-child {
+    margin-right: 4px;
+}
+
+}
+@media only screen and (max-width: 680px) {
+header h1.logo { position:static;}
+header h1.logo a img { margin: 0 auto;}
+.form-wrap .form-control { float: left; margin-right: 5px; width:160px;}
+.login-wrap > ul > li:first-child {
+    margin-right: 2px;
+}
+.login-wrap > ul > li > a { padding: 0 0 0 4px; font-size: 12px;}
+.navbar-default .navbar-brand { display: block; color: #000; font-family: 'Oxygen', sans-serif; font-size:14px;}
+.navbar-default .navbar-toggle { border-color:transparent; border:none; border-radius:0;}
+.navbar-default .navbar-toggle .icon-bar { background-color: #000;  width: 16px;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color:transparent}
+.navbar-default .navbar-toggle .icon-bar:hover { background-color: #fff;}
+.navbar-nav { margin:0 -15px;}
+.categories, .featured-listing { padding: 0 30px 30px;}
+.container-fluid, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    padding: 0 11px;
+}
+#navbar .navbar-default { padding: 0;}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse   {   margin: 0;}
+.inner-register .or strong {
+   
+    height: 57px;
+  
+    padding: 18px 0;
+   
+    width: 57px;
+}
+.categories .categories-title h2{ font-size: 16px;}
+.inner-footer .social-media ul.pull-right{float:none !important; }
+section.inner-page { padding: 14px 10px;}
+section.inner-page img { display: none;}
+section.inner-page .title, section.inner-page .title h2, section.inner-page .title .breadcrumb { position: static;}
+section.inner-page .title .breadcrumb { padding: 0;}
+section.inner-page .title h2 { color: #333; font-size: 14px;}
+section.inner-page .title .breadcrumb li a {
+    color: #333;
+}
+section.inner-page .title .breadcrumb li { font-size:11px;}
+.inner-content .col-xs-4 { padding:0;}
+.right-top .social-icon ul li a { width:25px; height: 25px; font-size:12px;}
+.comments {  margin: 60px 0 10px;}
+.rating-list .side-rating { font-size: 11px;}
+.rating-list .side-rating h5 { font-size:10px;}
+.right-top .title h3 { font-size: 20px;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { font-size: 12px;}
+}
+@media only screen and (max-width: 480px) {
+		header .col-xs-8, header .col-xs-4 { width:100%;}
+	
+/*.login-wrap { float: none !important;}*/
+
+
+header .login-wrap { margin: 0; float: none !important;}
+.login-wrap > ul > li + li:before { left: -5px;}
+.login-wrap > ul > li > a { padding: 0 6px ;}
+.form-wrap
+{
+    margin: 15px 0 5px;
+}
+
+footer .inner-footer ul li a, footer .inner-footer p { font-size: 12px;	}
+.inner-footer ul li + li:before { left: -9px;}
+
+.member .register-btn { margin: 12px auto;}
+.member .member-list li a { font-size:11px;}
+.inner-register .member { padding: 20px 4px;}
+.inner-register .member h3 { font-size:13px;}
+/*.form-wrap .form-control { margin:0 5px;}*/
+.inner-content .col-xs-4,  .inner-content .col-xs-8{ width:100%;}
+.inner-content .col-xs-4 { padding:0;}
+.sidenav { margin-bottom: 20px;}
+.right-top .title h3 { font-size: 14px;}
+.top span { font-size: 11px; line-height: 17px;}
+.comment-form .col-md-4 { padding:0;}
+.inner-content .rating-list .col-xs-4, .inner-content .rating-list .col-xs-8 { width:auto; padding: 0;}
+
+}
+@media only screen and (max-width: 360px) {
+
+.form-wrap .form-control { float: none;}
+.form-wrap .form-group { margin: 0 1px 5px 2px;}
+
+
+.form-wrap, .login-wrap {
+    margin: 10px 0 0;
+}
+.categories .col-xs-6, .featured-listing .col-xs-6{ width:100%;}
+.featured-listing { padding-bottom:20px;}
+footer .inner-footer ul li { margin-right: 15px;}
+.inner-register .col-xs-5, .inner-register .col-xs-2 {  width:100%;}
+}

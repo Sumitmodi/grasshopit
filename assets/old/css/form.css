@@ -1,0 +1,188 @@
+input{	
+	color:#333;
+	background:repeat #FFF;
+	padding:14px;
+}
+
+input[name='ktm']{
+	width:280px;
+}
+input[name='197']{
+	width:170px;
+}
+input[type='text']:focus,input[type='text'].text:focus{
+    -webkit-transition: box-shadow .5s;
+    transition: box-shadow .5s;
+	box-shadow:1px 0 3px rgba(0,120,0,0.7) inset;
+}
+input.text{
+	width:370px;
+	border:1px solid rgba(0,0,0,0.1);
+	min-height:15px;	
+}
+input[type='text'].focus{
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+	box-shadow:1px 0 1px rgba(0,120,0,0.7) inset;
+    -webkit-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+	box-shadow:1px 0 2px rgba(0,120,0,0.7) inset;
+    -webkit-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+	box-shadow:1px 0 3px rgba(0,120,0,0.7) inset;
+}
+input.text:focus{
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+	border:1px solid rgba(0,120,0,0.7);
+	box-shadow:1px 0 1px rgba(0,120,0,0.7) inset;
+    -webkit-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+	box-shadow:1px 0 2px rgba(0,120,0,0.7) inset;
+    -webkit-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+	box-shadow:1px 0 3px rgba(0,120,0,0.7) inset;
+}
+form.contactform textarea{    
+	min-height: 250px;
+    min-width: 393px;
+	padding:10px;
+	-webkit-appearance: none;
+	border:1px solid rgba(0,0,0,0.1);
+	font-size:0.8em;
+    color: rgba(0, 0, 0, 0.8);
+}
+form.contactform textarea:focus{
+    -webkit-transition: box-shadow .5s;
+    transition: box-shadow .5s;
+	border:1px solid rgba(0,120,0,0.7);
+	box-shadow:1px 0 3px rgba(0,120,0,0.7) inset;
+}
+input[type='text'].required,form.contactform textarea.required{
+	border:1px solid rgba(255,0,0,1);
+    -webkit-transition: box-shadow .5s;
+	-webkit-appearance: none;
+    transition: box-shadow .5s;
+	box-shadow:1px 0 3px rgba(255,0,0,01) inset;
+}
+form.contactform input[type='submit']{
+    background: none repeat scroll 0 0 rgba(0, 120, 0, 0.7);
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 25px;
+}
+ul li:hover input[type='submit']{
+	cursor:pointer;
+    -webkit-transition: background 1s;
+    transition: background 1s;
+   	background: none repeat scroll 0 0 rgba(0, 120, 0, 1);
+}
+button.little{
+  margin:0 auto;
+  min-width: 0;
+  font-size:1.4em;
+  padding:10px 20px;
+}
+input.text{
+    min-width: 270px;
+    border:1px solid #EEE;
+}
+input[type='submit'].login,input[type='submit'].register,input[type='submit'].ebook,input[type='submit'].review,
+input[type='submit'].message,input[type='submit'].subscribe{
+    background:rgba(0,120,0,0.7);
+    padding:10px 15px;
+    color:#FFF;
+}
+input.text:focus{
+    color:rgba(0,120,0,0.7);
+}
+input.message{
+    overflow-x:hidden; 
+}
+input[type='checkbox']{
+    border-collapse:collapse;
+    border-color: rgba(0,0,0,1);
+    color: rgba(0,0,0,1);
+}
+input[type='checkbox']:hover{
+    -webkit-transition: background 1s;
+    transition: background 1s;
+    border-color: rgba(0,120,0,0.7);
+    color: rgba(0,120,0,0.7);
+    box-shadow:0px 1px 5px rgba(0,120,0,0.7);
+}
+input[type='file'].image{
+	position:absolute;
+	left:-999px;
+}
+input.smalltext{
+    width: 35px;
+	border:1px solid rgba(0,0,0,0.1);
+	height: 31px;
+    padding: 0 10px;
+}
+select.select{
+	color:rgba(0,0,0,.7);
+}
+label span{
+	color:rgba(255,0,0,.6);
+}
+input.disabled, select.disabled,select.disabled option{
+	color:rgba(0,0,0,0.1);
+}
+input.closed{
+	color:rgba(0,120,0,0.7);
+}
+input.hide{
+	visibility:hidden;
+}
+input[type='submit']{
+	cursor:pointer;
+}
+select[name='delay'],
+select[name='delay'] option,
+select[name='limit'],
+select[name='limit'] option,
+select[name='length'],
+select[name='length'] option,
+select[name='quota'],
+select[name='quota'] option,
+select[name='campaign'],
+select[name='campaign'] option,select,select option{
+    color:rgba(0,0,0,.5);
+    width:auto;   
+    font-size:0.9em;
+    padding:5px 8px; 
+    min-width:100px;
+    text-align: center;
+}
+select[name='ftype'],select[name='fpoint']{
+    border:1px solid #EEE;
+    box-shadow:none;
+}
+select[name='ftype']:focus,
+select[name='fpoint']:focus{
+    -webkit-transition: background 1s;
+    transition: background 1s;
+    box-shadow:0px 1px 5px rgba(0,120,0,0.7);
+}
+input.hidden{
+    display:none;
+}
+input.modify{
+    border:1px solid #EEE;
+    padding:10px;
+    width:270px;
+}
+input.modify:focus{
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+	border:1px solid rgba(0,120,0,0.7);
+	box-shadow:1px 0 1px rgba(0,120,0,0.7) inset;
+    -webkit-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+	box-shadow:1px 0 2px rgba(0,120,0,0.7) inset;
+    -webkit-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+	box-shadow:1px 0 3px rgba(0,120,0,0.7) inset;
+}

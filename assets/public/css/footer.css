@@ -1,0 +1,53 @@
+footer{
+	/*position:relative;*/
+	direction:ltr;
+	position:relative;
+	width:100%;
+	margin:0 auto;
+}
+footer > ul{
+	padding:10px 0px 0px 10px;
+	display:table;
+	margin:0 auto;
+	text-align:center;
+	vertical-align:baseline;
+}
+ul.side{
+	display:table;
+}
+ul li.side{    
+	display: table-cell;
+    padding:0 10px 10px 10px;
+}
+li.side ul{
+	position:relative;
+}
+
+li.side  ul.down li{
+	display:block;
+	padding:3px 5px;
+}
+li.side  ul.down li a{
+	font-family:'proxima-regular',proxima-regular,roboto-condensed;
+	font-size:0.8em;
+}
+footer p {
+	text-align:center;
+	font-size:0.7em;
+	position:absolute;
+	bottom:0;
+	left:40%;
+	color:#FFF;
+}
+ul.line{
+	position:relative;
+	text-align:center;
+	padding:20px;;
+}
+ul.line li{
+	display:inline;
+	padding:30px;
+}
+footer img{
+    width:50px;
+}
